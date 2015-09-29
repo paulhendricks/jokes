@@ -9,4 +9,6 @@ setup(name='funniest',
       author_email='flyingcircus@example.com',
       license='MIT',
       packages=['funniest'],
-      zip_safe=False)
+      zip_safe=False, 
+      test_suite='nose.collector', 
+      tests_require=['nose'])
